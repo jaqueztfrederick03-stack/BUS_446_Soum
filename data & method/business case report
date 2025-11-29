@@ -1,0 +1,2 @@
+ev_clean <- read_csv("data/clean_ev_data.csv")
+country_summary <- read_csv("data/country_summary.csv")
