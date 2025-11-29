@@ -1,3 +1,2 @@
 write_csv(ev_clean, "data/clean_ev_data.csv")
-write_csv(country_summary, "data/country_summary.csv")
-The Data and Method folder contains all the information I used to study electric car adoption across different countries. It includes the datasets I gathered from reliable sources such as government reports, industry databases, and EV market studies. I explain the methods I used to clean, organize, and compare the data so the results are accurate and easy to understand. This section also outlines how I selected each country and which key metrics—like charging stations, EV sales, and government incentives—I focused on. Overall, this folder shows the step-by-step process behind the analysis and how the findings were developed.
+write_csv(country_summary, "data/country_summary.csv") process behind the analysis and how the findings were developed.
