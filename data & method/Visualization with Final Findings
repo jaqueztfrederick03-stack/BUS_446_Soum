@@ -1,1 +1,7 @@
-The Visualization with Final Findings folder contains the charts and graphs that clearly show how electric vehicle adoption differs across countries. These visualizations highlight trends like EV sales growth, charging station availability, and each country's overall EV market share. I used these visuals to compare nations side by side and make the data easier to understand at a glance. This section also includes my key findings, explaining what the patterns mean and why some countries lead while others lag behind. Overall, these visual results help tell the full story of global electric car adoption in a simple and impactful way. 
+cat("\nTop 3 countries by AVERAGE EV share (% of car sales):\n")
+print(top_share[, c("country", "avg_ev_share_pct")])
+
+cat("\nTop 3 countries by TOTAL EV sales:\n")
+print(top_sales[, c("country", "total_ev_sales")])
+
+cat("\nVisualizations saved in folder:", out_dir, "\n")
